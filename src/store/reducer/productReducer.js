@@ -5,7 +5,7 @@ const productsSlice = createSlice({
   initialState: {
     allProducts: products,
     filteredProducts: [],
-    filters: { categorya: [], colors: "", size: "", prices: [0, 10000] },
+    filters: { category: [], colors: "", size: "", prices: [0, 10000] },
   },
   reducers: {
     setProducts(state, action) {
